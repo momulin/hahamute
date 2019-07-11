@@ -2,8 +2,8 @@ const hahamute = require('hahamute');
 const PORT = process.env.PORT || 3000;  
 
 const Hahamute = hahamute({  
-    AccessToken:'Your AccessToken',  
-    AppSecret:'Your AppSecret'  
+    AccessToken:'**Your AccessToken**',  
+    AppSecret:'**Your AppSecret**'  
 });  
 const imgpath =  __dirname + '/imgpath';  
 
@@ -25,7 +25,7 @@ Hahamute.on('message', function (event) {
     Hahamute.sendmessage(event.sender_id,event.message.text);  
     **//send sticker**  
     Hahamute.sendsticker(event.sender_id,'9','01');  
-    **//send img  
+    **//send img**   
     Hahamute.sendimg(event.sender_id,imgpath);  
 });  
 
