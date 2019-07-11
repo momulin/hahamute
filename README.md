@@ -2,8 +2,8 @@ const hahamute = require('hahamute');
 const PORT = process.env.PORT || 3000;  
 
 const Hahamute = hahamute({  
-    AccessToken:'**Your AccessToken**',  
-    AppSecret:'**Your AppSecret**'  
+    AccessToken:'Your AccessToken',  
+    AppSecret:'Your AppSecret'  
 });  
 const imgpath =  __dirname + '/imgpath';  
 
