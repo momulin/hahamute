@@ -1,4 +1,4 @@
-#**此文件為哈哈姆特bot package**  
+**此文件為哈哈姆特bot package**  
 -----------------
 使用**npm install --save hahamute**安裝
 
