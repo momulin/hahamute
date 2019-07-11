@@ -1,4 +1,4 @@
-此文件為哈哈姆特bot library
+此文件為哈哈姆特bot package  
 使用**npm install --save hahamute**安裝
 
 const hahamute = require('hahamute');  
@@ -9,8 +9,6 @@ const Hahamute = hahamute({
     AccessToken:'Your AccessToken',  
     AppSecret:'Your AppSecret'  
 });  
-**//圖片路徑**  
-const imgpath =  __dirname + '/imgpath';  
 
 **//使用express架設**  
 const express = require('express');  
@@ -23,6 +21,9 @@ app.listen(PORT);
 Hahamute.listen('/habot',PORT,()=>{  
     console.log('server start on port '+PORT);  
 });
+
+**//自訂圖片路徑**  
+const imgpath =  __dirname + '/imgpath';  
 
 **//監聽訊息**  
 Hahamute.on('message', function (event) {  
