@@ -1,3 +1,5 @@
+**npm install --save hahamute**
+
 const hahamute = require('hahamute');  
 const PORT = process.env.PORT || 3000;  
 
