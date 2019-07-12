@@ -1,4 +1,4 @@
-**哈哈姆特bot package**  
+**哈哈姆特bot api package**  
 -----------------
 使用**npm install --save hahamute**安裝
 
